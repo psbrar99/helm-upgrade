@@ -7,7 +7,7 @@ spec:
   releaseName: istiod
   chart:
     spec:
-      chart: istiod-canary
+      chart: istio/istiod
       sourceRef:
         kind: HelmRepository
         name: istio
