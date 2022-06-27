@@ -4,4 +4,3 @@ namespace: istio-system
 resources:
   - crd-all.gen.yaml
   - crd-operator.yaml
-  - release.yaml
