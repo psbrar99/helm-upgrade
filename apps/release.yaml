@@ -1,13 +1,13 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: podinfo
+  name: istioflux
   namespace: istio-system
 spec:
   releaseName: istiod
   chart:
     spec:
-      chart: istiod-canary
+      chart: istio/istiod
       sourceRef:
         kind: HelmRepository
         name: istio
