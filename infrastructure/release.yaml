@@ -10,7 +10,7 @@ spec:
       chart: istio/istiod
       sourceRef:
         kind: HelmRepository
-        name: istio
+        name: istiorepo
         namespace: flux-system
   interval: 5m
   install:
